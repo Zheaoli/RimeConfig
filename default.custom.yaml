@@ -1,0 +1,7 @@
+patch:
+  menu:
+    page_size: 8
+  schema_list:
+  - schema: luna_pinyin_simp      # 朙月拼音 简化字
+  "switcher/hotkeys":
+  - "Control+Shift+F12"
