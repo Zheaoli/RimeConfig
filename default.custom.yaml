@@ -5,3 +5,11 @@ patch:
   - schema: luna_pinyin_simp      # 朙月拼音 简化字
   "switcher/hotkeys":
   - "Control+Shift+F12"
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    # 按下左 shift 英文字符直接上屏，不需要再次回车，输入法保持英文状态
+    Shift_L: commit_code
+    Shift_R: noop
